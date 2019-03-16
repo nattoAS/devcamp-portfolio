@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"po",
+				"portfolio_item"
+			],
+			[
 				"li",
 				"line-height\tproperty"
 			],
@@ -147,6 +151,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/controllers/portfolios_controller.rb",
+			"settings":
+			{
+				"buffer_size": 155,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/portfolios/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 413,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/schema.rb",
+			"settings":
+			{
+				"buffer_size": 1516,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -198,10 +228,40 @@
 	[
 		"/Users/natt/code/devcamp-tutorials",
 		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio",
-		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/config"
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/controllers",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/models",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views/blogs",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views/pages",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views/portfolios",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/db",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/db/migrate"
 	],
 	"file_history":
 	[
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views/blogs/_form.html.erb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views/blogs/new.html.erb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views/blogs/edit.html.erb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/controllers/blogs_controller.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views/portfolios/index.html.erb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/db/schema.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/db/seeds.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/models/skill.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/controllers/pages_controller.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/views/pages/home.html.erb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/db/migrate/20190224125138_create_skills.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/config/routes.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/models/blog.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/.gitignore",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/config/environments/production.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/config/environments/test.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/config/environments/development.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/assets/stylesheets/blogs.scss",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/assets/stylesheets/scaffolds.scss",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/app/assets/javascripts/blogs.coffee",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/db/migrate/20190224051010_create_blogs.rb",
+		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/config/database.yml",
 		"/Users/natt/code/devcamp-tutorials/DevcampPortfolio/Gemfile",
 		"/Users/natt/devcamp-tutorials/DevcampPortfolio/Gemfile",
 		"/Users/natt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -243,7 +303,7 @@
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -257,6 +317,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -274,14 +335,108 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/portfolios_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/portfolios/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "db/schema.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1155,
+								1163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 237.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -296,11 +451,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.558224338717,
 			1.0
 		],
 		"rows":
@@ -318,7 +480,7 @@
 	"project": "DevcampPortfolio.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -327,6 +489,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"rout",
+				"DevcampPortfolio/config/routes.rb"
+			]
 		],
 		"width": 0.0
 	},
@@ -356,7 +522,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 255.0,
+	"side_bar_width": 212.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
